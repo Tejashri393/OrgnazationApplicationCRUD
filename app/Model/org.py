@@ -1,8 +1,4 @@
-
-
-from flask_sqlalchemy import SQLAlchemy
-
-db = SQLAlchemy()
+from app import db
 
 class Organisation(db.Model):
     __tablename__ = 'organisations'

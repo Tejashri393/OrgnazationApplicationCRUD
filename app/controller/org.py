@@ -1,6 +1,7 @@
 
 from flask import Blueprint, request, jsonify
-from app.Model.org import Organisation, db
+from app.Model.org import Organisation
+from app import db
 from sqlalchemy.exc import IntegrityError
 from werkzeug.exceptions import NotFound
 import logging

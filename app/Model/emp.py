@@ -1,5 +1,4 @@
-
-from app.Model.org import db
+from app import db
 
 
 
